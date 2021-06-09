@@ -36,7 +36,7 @@ def parse_contest(contest_link):
 def split_limit(soup):
     l = soup.split()
     return {
-        "value": int(l[0]),
+        "value": float(l[0]),
         "unit": l[1]
     }
 
